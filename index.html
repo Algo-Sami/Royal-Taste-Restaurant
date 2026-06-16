@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Royal Taste – Experience fine dining like never before. Discover exquisite flavors, impeccable service, and an unforgettable culinary journey in the heart of the city." />
+  <meta name="keywords" content="fine dining, restaurant, Royal Taste, gourmet food, reservations, luxury restaurant" />
+  <meta name="author" content="Royal Taste Restaurant" />
+  <meta property="og:title" content="Royal Taste – Fine Dining Experience" />
+  <meta property="og:description" content="Experience fine dining like never before at Royal Taste." />
+  <meta property="og:type" content="website" />
+  <title>Royal Taste – Fine Dining Experience</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="nav-container">
+      <a href="#home" class="logo" aria-label="Royal Taste Home">
+        <span class="logo-icon">♛</span>
+        <span class="logo-text">Royal <em>Taste</em></span>
+      </a>
+      <nav role="navigation" aria-label="Main navigation">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#reservation" class="nav-link">Reservations</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#reservation" class="btn-reserve-nav" id="nav-cta">Reserve Table</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home" aria-label="Hero section">
+    <div class="hero-overlay"></div>
+    <div class="hero-bg" id="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-tagline" data-aos="fade-up">Est. 2012 · Award Winning Cuisine</p>
+      <h1 class="hero-heading" data-aos="fade-up" data-aos-delay="100">
+        Experience Fine Dining<br /><em>Like Never Before</em>
+      </h1>
+      <p class="hero-desc" data-aos="fade-up" data-aos-delay="200">
+        Indulge in a symphony of flavors crafted by world-class chefs. Every dish tells a story — from farm-fresh ingredients to artfully plated masterpieces that leave lasting memories.
+      </p>
+      <div class="hero-cta" data-aos="fade-up" data-aos-delay="300">
+        <a href="#reservation" class="btn-primary" id="hero-reserve-btn">
+          <i class="fa-solid fa-calendar-check"></i> Reserve a Table
+        </a>
+        <a href="#menu" class="btn-ghost" id="hero-menu-btn">
+          Explore Menu <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+      <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+        <div class="stat">
+          <span class="stat-num">15+</span>
+          <span class="stat-label">Years of Excellence</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">120+</span>
+          <span class="stat-label">Signature Dishes</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">50k+</span>
+          <span class="stat-label">Happy Guests</span>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll" aria-label="Scroll down">
+      <span class="scroll-dot"></span>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about section" id="about" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrap" data-aos="fade-right">
+          <div class="about-img-frame">
+            <img src="images/restaurant_interior.png" alt="Royal Taste elegant restaurant interior with chandeliers and white tablecloths" class="about-img" loading="lazy" />
+          </div>
+          <div class="about-badge">
+            <i class="fa-solid fa-award"></i>
+            <span>Michelin Recognized</span>
+          </div>
+          <div class="about-years-badge">
+            <span class="years-num">15</span>
+            <span class="years-text">Years of<br/>Culinary Art</span>
+          </div>
+        </div>
+        <div class="about-content" data-aos="fade-left">
+          <p class="section-label">Our Story</p>
+          <h2 id="about-heading" class="section-title">Crafted With Passion,<br /><em>Served With Love</em></h2>
+          <p class="about-text">
+            Royal Taste was born from a singular dream — to create a space where exceptional food meets unforgettable memories. Founded in 2012 by Chef Ethan Marlowe, our restaurant has grown from a small bistro into one of the city's most celebrated fine dining destinations.
+          </p>
+          <p class="about-text">
+            We believe that every meal is a ceremony. Our chefs source the finest seasonal ingredients from local farms and global markets, transforming them into culinary masterpieces that honor both tradition and innovation.
+          </p>
+          <div class="about-features">
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-seedling"></i></div>
+              <div>
+                <strong>Farm to Table</strong>
+                <p>Sourced daily from trusted local farms and artisan producers.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
+              <div>
+                <strong>Master Chefs</strong>
+                <p>Our culinary team brings decades of Michelin-star experience.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-wine-glass"></i></div>
+              <div>
+                <strong>Curated Pairings</strong>
+                <p>Expert sommelier selections to complement every dish perfectly.</p>
+              </div>
+            </div>
+          </div>
+          <a href="#reservation" class="btn-primary" id="about-reserve-btn">
+            <i class="fa-solid fa-calendar-check"></i> Book Your Experience
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MENU ===== -->
+  <section class="menu section" id="menu" aria-labelledby="menu-heading">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-label">Culinary Creations</p>
+        <h2 id="menu-heading" class="section-title">Our Featured <em>Menu</em></h2>
+        <p class="section-subtitle">Each dish is a work of art, crafted with the finest ingredients and presented with exquisite attention to detail.</p>
+      </div>
+      <div class="menu-tabs" data-aos="fade-up" role="tablist" aria-label="Menu categories">
+        <button class="menu-tab active" data-tab="appetizers" id="tab-appetizers" role="tab" aria-selected="true" aria-controls="panel-appetizers">Appetizers</button>
+        <button class="menu-tab" data-tab="mains" id="tab-mains" role="tab" aria-selected="false" aria-controls="panel-mains">Main Courses</button>
+        <button class="menu-tab" data-tab="desserts" id="tab-desserts" role="tab" aria-selected="false" aria-controls="panel-desserts">Desserts</button>
+        <button class="menu-tab" data-tab="beverages" id="tab-beverages" role="tab" aria-selected="false" aria-controls="panel-beverages">Beverages</button>
+      </div>
+
+      <!-- Appetizers -->
+      <div class="menu-panel active" id="panel-appetizers" role="tabpanel" aria-labelledby="tab-appetizers">
+        <div class="menu-grid">
+          <article class="menu-card" data-aos="fade-up">
+            <div class="menu-card-img">
+              <img src="images/menu_appetizer.png" alt="Gourmet Bruschetta Trio with tomatoes and basil" loading="lazy" />
+              <span class="menu-badge">Chef's Pick</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Bruschetta Trio</h3>
+                <span class="price">$18</span>
+              </div>
+              <p>Artisan bread topped with heirloom tomatoes, fresh basil, aged balsamic reduction and whipped ricotta.</p>
+              <div class="menu-card-tags">
+                <span>Vegetarian</span><span>Gluten-Free Option</span>
+              </div>
+            </div>
+          </article>
+          <article class="menu-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" alt="Seared Scallops with cauliflower puree" loading="lazy" />
+              <span class="menu-badge new-badge">New</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Seared Scallops</h3>
+                <span class="price">$26</span>
+              </div>
+              <p>Pan-seared diver scallops on silky cauliflower purée with crispy pancetta and truffle oil.</p>
+              <div class="menu-card-tags">
+                <span>Seafood</span><span>Gluten-Free</span>
+              </div>
+            </div>
+          </article>
+          <article class="menu-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80" alt="Wild mushroom soup with truffle cream" loading="lazy" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Wild Mushroom Velouté</h3>
+                <span class="price">$16</span>
+              </div>
+              <p>Velvety forest mushroom soup with crème fraîche, fresh truffle shavings and chive oil.</p>
+              <div class="menu-card-tags">
+                <span>Vegetarian</span><span>Seasonal</span>
+              </div>
+            </div>
+          </article>
+          <article class="menu-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=600&q=80" alt="Foie gras with brioche toast" loading="lazy" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Duck Foie Gras</h3>
+                <span class="price">$34</span>
+              </div>
+              <p>Pan-seared foie gras with caramelized fig compote, brioche toast and Sauternes jelly.</p>
+              <div class="menu-card-tags">
+                <span>Signature</span><span>Premium</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Mains -->
+      <div class="menu-panel" id="panel-mains" role="tabpanel" aria-labelledby="tab-mains">
+        <div class="menu-grid">
+          <article class="menu-card" data-aos="fade-up">
+            <div class="menu-card-img">
+              <img src="images/menu_main_course.png" alt="Prime beef tenderloin with roasted vegetables" loading="lazy" />
+              <span class="menu-badge">Signature</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Prime Beef Tenderloin</h3>
+                <span class="price">$68</span>
+              </div>
+              <p>8oz USDA prime tenderloin, perfectly seared to perfection, with truffle mashed potato and red wine jus.</p>
+              <div class="menu-card-tags">
+                <span>Chef's Signature</span><span>Gluten-Free</span>
+              </div>
+            </div>
+          </article>
+          <article class="menu-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80" alt="Grilled salmon with lemon herb butter" loading="lazy" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Atlantic Salmon</h3>
+                <span class="price">$48</span>
+              </div>
+              <p>Wild-caught Atlantic salmon with lemon-herb beurre blanc, seasonal vegetables and saffron risotto.</p>
+              <div class="menu-card-tags">
+                <span>Seafood</span><span>Gluten-Free</span>
+              </div>
+            </div>
+          </article>
+          <article class="menu-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=600&q=80" alt="Truffle pasta with parmesan" loading="lazy" />
+              <span class="menu-badge new-badge">Seasonal</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Black Truffle Tagliatelle</h3>
+                <span class="price">$42</span>
+              </div>
+              <p>House-made tagliatelle tossed in aged Parmigiano cream with generous black truffle shavings.</p>
+              <div class="menu-card-tags">
+                <span>Vegetarian</span><span>Seasonal</span>
+              </div>
+            </div>
+          </article>
+          <article class="menu-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80" alt="Roasted duck breast with cherry sauce" loading="lazy" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Roasted Duck Breast</h3>
+                <span class="price">$54</span>
+              </div>
+              <p>Crispy-skin duck breast with Bing cherry gastrique, confit potato cake and wilted spinach.</p>
+              <div class="menu-card-tags">
+                <span>Gluten-Free</span><span>Premium</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Desserts -->
+      <div class="menu-panel" id="panel-desserts" role="tabpanel" aria-labelledby="tab-desserts">
+        <div class="menu-grid">
+          <article class="menu-card" data-aos="fade-up">
+            <div class="menu-card-img">
+              <img src="images/menu_dessert.png" alt="Chocolate lava cake with vanilla ice cream" loading="lazy" />
+              <span class="menu-badge">Most Loved</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Chocolate Lava Cake</h3>
+                <span class="price">$16</span>
+              </div>
+              <p>Warm Valrhona chocolate fondant with molten center, Tahitian vanilla bean ice cream and fresh raspberries.</p>
+              <div class="menu-card-tags">
+                <span>Vegetarian</span><span>Gluten-Free Option</span>
+              </div>
+            </div>
+          </article>
+          <article class="menu-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&q=80" alt="Classic crème brûlée with berries" loading="lazy" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Classic Crème Brûlée</h3>
+                <span class="price">$14</span>
+              </div>
+              <p>Silky vanilla custard with a perfectly caramelized sugar crust and seasonal berry compote.</p>
+              <div class="menu-card-tags">
+                <span>Vegetarian</span><span>Gluten-Free</span>
+              </div>
+            </div>
+          </article>
+          <article class="menu-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=80" alt="Tiramisu with espresso" loading="lazy" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Royal Tiramisu</h3>
+                <span class="price">$15</span>
+              </div>
+              <p>Classic Italian tiramisu with Kahlúa-soaked ladyfingers, mascarpone cream and dusted cocoa powder.</p>
+              <div class="menu-card-tags">
+                <span>Vegetarian</span><span>Contains Alcohol</span>
+              </div>
+            </div>
+          </article>
+          <article class="menu-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=600&q=80" alt="Mango sorbet and tropical fruit" loading="lazy" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Tropical Sorbet Trio</h3>
+                <span class="price">$12</span>
+              </div>
+              <p>Three seasonal sorbets — mango, passion fruit and raspberry — with fresh tropical fruit and mint.</p>
+              <div class="menu-card-tags">
+                <span>Vegan</span><span>Gluten-Free</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Beverages -->
+      <div class="menu-panel" id="panel-beverages" role="tabpanel" aria-labelledby="tab-beverages">
+        <div class="menu-grid">
+          <article class="menu-card" data-aos="fade-up">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=600&q=80" alt="Signature cocktail with garnish" loading="lazy" />
+              <span class="menu-badge">Signature</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Royal Old Fashioned</h3>
+                <span class="price">$22</span>
+              </div>
+              <p>Aged bourbon, house-made honey syrup, Angostura bitters and orange peel over a crystal-clear ice sphere.</p>
+              <div class="menu-card-tags">
+                <span>Cocktail</span><span>Alcoholic</span>
+              </div>
+            </div>
+          </article>
+          <article class="menu-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=600&q=80" alt="Premium red wine glass" loading="lazy" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Reserve Burgundy</h3>
+                <span class="price">$28</span>
+              </div>
+              <p>A premier Pinot Noir from Burgundy, France — silky tannins with notes of cherry, earth and subtle oak.</p>
+              <div class="menu-card-tags">
+                <span>Wine</span><span>Alcoholic</span>
+              </div>
+            </div>
+          </article>
+          <article class="menu-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1543362906-acfc16c67564?w=600&q=80" alt="Sparkling water and herbal mocktail" loading="lazy" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Garden Spritz</h3>
+                <span class="price">$14</span>
+              </div>
+              <p>Elderflower cordial, fresh cucumber, mint and premium sparkling water — a refreshing non-alcoholic option.</p>
+              <div class="menu-card-tags">
+                <span>Mocktail</span><span>Non-Alcoholic</span>
+              </div>
+            </div>
+          </article>
+          <article class="menu-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80" alt="Pour-over specialty coffee" loading="lazy" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Single Origin Coffee</h3>
+                <span class="price">$9</span>
+              </div>
+              <p>Ethiopian Yirgacheffe pour-over, hand-selected beans roasted in-house with bright floral and citrus notes.</p>
+              <div class="menu-card-tags">
+                <span>Coffee</span><span>Non-Alcoholic</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="menu-cta" data-aos="fade-up">
+        <a href="#reservation" class="btn-primary" id="menu-reserve-btn">
+          <i class="fa-solid fa-calendar-check"></i> Reserve Your Table
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SPECIAL OFFERS ===== -->
+  <section class="offers section" id="offers" aria-labelledby="offers-heading">
+    <div class="container">
+      <div class="offers-banner" data-aos="zoom-in">
+        <div class="offers-content">
+          <p class="section-label" style="color: var(--gold-light);">Limited Time</p>
+          <h2 id="offers-heading" class="offers-title">Summer Tasting Menu</h2>
+          <p class="offers-desc">
+            Celebrate the season with our exclusive 7-course summer tasting menu. Chef Ethan Marlowe has curated an extraordinary journey through seasonal flavors — paired with exceptional wines from our cellar.
+          </p>
+          <ul class="offers-list">
+            <li><i class="fa-solid fa-check-circle"></i> 7-Course Tasting Menu</li>
+            <li><i class="fa-solid fa-check-circle"></i> Wine Pairing Included</li>
+            <li><i class="fa-solid fa-check-circle"></i> Complimentary Amuse-Bouche</li>
+            <li><i class="fa-solid fa-check-circle"></i> Chef's Table Experience</li>
+          </ul>
+          <div class="offers-price">
+            <span class="original-price">$220</span>
+            <span class="offer-price">$165</span>
+            <span class="offer-tag">per person</span>
+          </div>
+          <a href="#reservation" class="btn-gold" id="offer-reserve-btn">
+            <i class="fa-solid fa-utensils"></i> Book This Experience
+          </a>
+        </div>
+        <div class="offers-visual">
+          <div class="offer-img-container">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=700&q=80" alt="Summer tasting menu spread with gourmet dishes" loading="lazy" />
+            <div class="offer-badge">
+              <span>25% OFF</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="gallery section" id="gallery" aria-labelledby="gallery-heading">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-label">Visual Journey</p>
+        <h2 id="gallery-heading" class="section-title">A Feast for <em>the Eyes</em></h2>
+        <p class="section-subtitle">Every visit to Royal Taste is a visual delight. Explore the ambiance, artistry, and passion behind every plate.</p>
+      </div>
+      <div class="gallery-grid" data-aos="fade-up">
+        <div class="gallery-item gallery-item--large" tabindex="0" aria-label="View restaurant ambiance">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80" alt="Elegant restaurant dining room with candlelight" loading="lazy" />
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Fine Dining Ambiance</span>
+          </div>
+        </div>
+        <div class="gallery-item" tabindex="0" aria-label="View gourmet dish">
+          <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" alt="Gourmet plated dish with artistic presentation" loading="lazy" />
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Artisan Plating</span>
+          </div>
+        </div>
+        <div class="gallery-item" tabindex="0" aria-label="View dessert creation">
+          <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&q=80" alt="Stunning dessert plating with berries" loading="lazy" />
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Sweet Indulgence</span>
+          </div>
+        </div>
+        <div class="gallery-item" tabindex="0" aria-label="View kitchen team">
+          <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80" alt="Chef preparing gourmet dish in professional kitchen" loading="lazy" />
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Culinary Mastery</span>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--tall" tabindex="0" aria-label="View wine cellar">
+          <img src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=600&q=80" alt="Premium wine cellar with curated bottles" loading="lazy" />
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Wine Cellar</span>
+          </div>
+        </div>
+        <div class="gallery-item" tabindex="0" aria-label="View cocktail creation">
+          <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=600&q=80" alt="Premium cocktail with elegant garnish" loading="lazy" />
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+            <span>Signature Cocktails</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials section" id="testimonials" aria-labelledby="testimonials-heading">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-label">Guest Experiences</p>
+        <h2 id="testimonials-heading" class="section-title">What Our Guests <em>Say</em></h2>
+      </div>
+      <div class="testimonials-grid">
+        <article class="testimonial-card" data-aos="fade-up">
+          <div class="stars" aria-label="5 out of 5 stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <blockquote>
+            "Royal Taste is simply extraordinary. From the moment we walked in, the atmosphere, service, and food were all impeccable. The beef tenderloin was the best I've ever had. An unforgettable anniversary dinner!"
+          </blockquote>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&q=80" alt="James Harrison" loading="lazy" />
+            <div>
+              <strong>James Harrison</strong>
+              <span>Food Critic, The City Times</span>
+            </div>
+          </div>
+        </article>
+        <article class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="stars" aria-label="5 out of 5 stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <blockquote>
+            "We celebrated our wedding anniversary here and it was magical. The chef's tasting menu took us on a culinary journey like no other. Every single course was perfection. We'll be back for every special occasion!"
+          </blockquote>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&q=80" alt="Sophia Laurent" loading="lazy" />
+            <div>
+              <strong>Sophia Laurent</strong>
+              <span>Regular Guest</span>
+            </div>
+          </div>
+        </article>
+        <article class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="stars" aria-label="5 out of 5 stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <blockquote>
+            "I've dined at Michelin-starred restaurants across Europe, and Royal Taste stands shoulder to shoulder with the finest. The truffle tagliatelle and chocolate lava cake are divine. Absolutely world class!"
+          </blockquote>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&q=80" alt="Robert Chen" loading="lazy" />
+            <div>
+              <strong>Robert Chen</strong>
+              <span>Travel & Lifestyle Blogger</span>
+            </div>
+          </div>
+        </article>
+        <article class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="stars" aria-label="5 out of 5 stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <blockquote>
+            "The private dining experience at Royal Taste was exceptional. Chef Ethan personally curated our corporate dinner menu, and every guest was thoroughly impressed. The level of service is unparalleled."
+          </blockquote>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=80&q=80" alt="Amara Williams" loading="lazy" />
+            <div>
+              <strong>Amara Williams</strong>
+              <span>Corporate Executive</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESERVATION ===== -->
+  <section class="reservation section" id="reservation" aria-labelledby="reservation-heading">
+    <div class="reservation-bg"></div>
+    <div class="container">
+      <div class="reservation-wrapper" data-aos="fade-up">
+        <div class="reservation-info">
+          <p class="section-label" style="color: var(--gold);">Book a Table</p>
+          <h2 id="reservation-heading" class="section-title" style="color: #fff;">Reserve Your<br /><em>Royal Experience</em></h2>
+          <p style="color: rgba(255,255,255,0.75); margin-bottom: 2rem; font-size: 1.05rem; line-height: 1.7;">
+            Join us for an unforgettable evening. Our reservations team is ready to craft the perfect dining experience tailored just for you.
+          </p>
+          <div class="res-info-items">
+            <div class="res-info-item">
+              <i class="fa-solid fa-clock"></i>
+              <div>
+                <strong>Dinner</strong>
+                <span>Tuesday–Sunday: 6:00 PM – 11:00 PM</span>
+              </div>
+            </div>
+            <div class="res-info-item">
+              <i class="fa-solid fa-utensils"></i>
+              <div>
+                <strong>Lunch</strong>
+                <span>Friday–Sunday: 12:00 PM – 3:00 PM</span>
+              </div>
+            </div>
+            <div class="res-info-item">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <strong>Phone Reservations</strong>
+                <span>+1 (212) 555-0192</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="reservation-form" id="reservation-form" novalidate aria-label="Table reservation form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="res-name">Full Name *</label>
+              <input type="text" id="res-name" name="name" placeholder="Your full name" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="res-email">Email Address *</label>
+              <input type="email" id="res-email" name="email" placeholder="your@email.com" required autocomplete="email" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="res-phone">Phone Number *</label>
+              <input type="tel" id="res-phone" name="phone" placeholder="+1 (000) 000-0000" required autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label for="res-guests">Number of Guests *</label>
+              <select id="res-guests" name="guests" required>
+                <option value="" disabled selected>Select guests</option>
+                <option value="1">1 Guest</option>
+                <option value="2">2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+                <option value="5">5 Guests</option>
+                <option value="6">6 Guests</option>
+                <option value="7-10">7–10 Guests</option>
+                <option value="10+">10+ Guests (Private Dining)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="res-date">Preferred Date *</label>
+              <input type="date" id="res-date" name="date" required />
+            </div>
+            <div class="form-group">
+              <label for="res-time">Preferred Time *</label>
+              <select id="res-time" name="time" required>
+                <option value="" disabled selected>Select time</option>
+                <option value="12:00">12:00 PM</option>
+                <option value="13:00">1:00 PM</option>
+                <option value="14:00">2:00 PM</option>
+                <option value="18:00">6:00 PM</option>
+                <option value="19:00">7:00 PM</option>
+                <option value="20:00">8:00 PM</option>
+                <option value="21:00">9:00 PM</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group form-group--full">
+            <label for="res-notes">Special Requests</label>
+            <textarea id="res-notes" name="notes" placeholder="Dietary restrictions, occasion, special seating preferences..." rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn-reserve-submit" id="submit-reservation">
+            <i class="fa-solid fa-calendar-check"></i>
+            <span>Reserve My Table</span>
+          </button>
+          <p class="form-note">* We'll confirm your reservation within 24 hours. For same-day reservations, please call us directly.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact section" id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-label">Get In Touch</p>
+        <h2 id="contact-heading" class="section-title">Find <em>Us Here</em></h2>
+      </div>
+      <div class="contact-grid" data-aos="fade-up">
+        <div class="contact-info-cards">
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h3>Our Address</h3>
+              <p>42 Gourmet Avenue, Manhattan<br />New York, NY 10012</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <h3>Phone</h3>
+              <p>+1 (212) 555-0192<br />+1 (212) 555-0193</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <h3>Email</h3>
+              <p>reservations@royaltaste.com<br />info@royaltaste.com</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <h3>Hours</h3>
+              <p>Tue–Sun Dinner: 6PM – 11PM<br />Fri–Sun Lunch: 12PM – 3PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="map-container">
+          <div class="map-placeholder" role="img" aria-label="Map showing Royal Taste restaurant location at 42 Gourmet Avenue, Manhattan, New York">
+            <div class="map-inner">
+              <div class="map-pin">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <p class="map-label">Royal Taste</p>
+              <p class="map-address">42 Gourmet Avenue, Manhattan, NY</p>
+              <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="map-link" id="map-directions-link">
+                <i class="fa-solid fa-diamond-turn-right"></i> Get Directions
+              </a>
+            </div>
+            <div class="map-grid"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#home" class="logo footer-logo" aria-label="Royal Taste home">
+              <span class="logo-icon">♛</span>
+              <span class="logo-text">Royal <em>Taste</em></span>
+            </a>
+            <p class="footer-about">Crafting extraordinary dining experiences since 2012. Where every meal is a celebration and every guest is royalty.</p>
+            <div class="social-links" aria-label="Social media links">
+              <a href="#" class="social-link" id="social-instagram" aria-label="Follow us on Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-link" id="social-facebook" aria-label="Follow us on Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" class="social-link" id="social-twitter" aria-label="Follow us on Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#" class="social-link" id="social-tiktok" aria-label="Follow us on TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+          </div>
+          <div class="footer-links-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#menu">Our Menu</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#reservation">Reservations</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-col">
+            <h4>Dining Options</h4>
+            <ul>
+              <li><a href="#menu">À la Carte</a></li>
+              <li><a href="#offers">Tasting Menus</a></li>
+              <li><a href="#reservation">Private Dining</a></li>
+              <li><a href="#reservation">Corporate Events</a></li>
+              <li><a href="#reservation">Chef's Table</a></li>
+              <li><a href="#reservation">Wine Pairing</a></li>
+            </ul>
+          </div>
+          <div class="footer-hours">
+            <h4>Opening Hours</h4>
+            <ul class="hours-list">
+              <li>
+                <span>Monday</span>
+                <span class="closed">Closed</span>
+              </li>
+              <li>
+                <span>Tue – Thu</span>
+                <span>6PM – 11PM</span>
+              </li>
+              <li>
+                <span>Fri – Sat</span>
+                <span>12PM – 11PM</span>
+              </li>
+              <li>
+                <span>Sunday</span>
+                <span>12PM – 10PM</span>
+              </li>
+            </ul>
+            <a href="tel:+12125550192" class="footer-phone">
+              <i class="fa-solid fa-phone"></i> +1 (212) 555-0192
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© <span id="year"></span> Royal Taste Restaurant. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== SUCCESS TOAST ===== -->
+  <div class="toast" id="toast" role="alert" aria-live="polite">
+    <i class="fa-solid fa-circle-check"></i>
+    <div>
+      <strong>Reservation Received!</strong>
+      <p>We'll confirm your booking within 24 hours.</p>
+    </div>
+  </div>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
